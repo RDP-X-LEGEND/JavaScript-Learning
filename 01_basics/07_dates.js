@@ -23,7 +23,15 @@ let personalDate3 = new Date("2024-10-7") // to add in american format [inp => (
 let personalDate4 = new Date("7-10-2024") // to add in indian format [(inp = out) => (dd, mm, yyyy)]
 // console.log(personalDate4.toLocaleDateString());
 
-console.log(personalDate4.getTime()); // convert a given date to milesecond from the 1 january 1970
+// console.log(personalDate4.getTime()); // convert a given date to milesecond from the 1 january 1970
 
 let nowTime = Date.now() // to add the current time
-console.log(nowTime);
+// console.log(nowTime);
+
+console.log(Math.round(nowTime/1000)); // time in sec
+console.log(nowTime); // normal time ( millisecond )
+
+let mydate = new Date()
+console.log(mydate.toLocaleString('deafult', {
+    weekday: "long"
+}))
