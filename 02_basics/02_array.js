@@ -21,7 +21,7 @@ console.log(arr6);
 
 console.log(Array.isArray("RDP")) // checking is something a array
 
-console.log(Array.from("RDP King")) // converting a string to a array and make each letter an array
+console.log(Array.from("RDP King")) // converting a string to a array and make each letter an element
 
 console.log(Array.from({name: "RDP"})) // output => empty array as we ahven't told it what to store ("key" or "value")
 
