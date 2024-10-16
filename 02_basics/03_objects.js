@@ -11,23 +11,23 @@ let user1 = {
     [mySym]: "ni6e"
 }
 
-// console.log(user1.email); // 1 way of accessing objects
+console.log(user1.email); // 1 way of accessing objects
 
-// console.log(user1["email"]); // another way of accessing objects
+console.log(user1["email"]); // another way of accessing objects
 
-// console.log(user1["full name"]); // this cannot be accessed with ' . ' function
+console.log(user1["full name"]); // this cannot be accessed with ' . ' function
 
-// console.log(user1[mySym]); // printing the symbol
+console.log(user1[mySym]); // printing the symbol
 
 user1.name = "Rajdeep" // changing a value in object
+/*
+Object.freeze(user1) // freezing an object
 
-// Object.freeze(user1) // freezing an object
+user1.age = 1965 // changing an object after freezing
 
-// user1.age = 1965 // changing an object after freezing
-
-// user1.name = "R D P" // changing an object after freezing
-
-// console.log(user1);
+user1.name = "R D P" // changing an object after freezing
+*/
+console.log(user1);
 
 user1.greeting = function(){
     console.log("Lovely Code");
