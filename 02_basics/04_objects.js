@@ -6,7 +6,7 @@ appUser.id = "1223ghvhbkjd4343b8cbdc"
 appUser.name = "Nobody"
 appUser.isLoggedIn = false
 
-// console.log(appUser);
+console.log(appUser);
 
 let goodUser = {
     id: "iegu34308rrjrbjeb",
@@ -21,7 +21,7 @@ let goodUser = {
     }
 }
 
-// console.log(goodUser.name.fullname.middlename);
+console.log(goodUser.name.fullname.middlename);
 
 let obj1 = {1: "a", 2: "b"}
 let obj2 = {10: "a1", 20: "b1"}
@@ -30,7 +30,7 @@ let obj3 = {100: "a10", 200: "b10"}
 // let obj4 = Object.assign({}, obj1, obj2, obj3)
 let obj4 = {...obj1, ...obj2, ...obj3}
 
-// console.log(obj4);
+console.log(obj4);
 
 const users = [
     {
@@ -47,18 +47,18 @@ const users = [
     },
 ]
 
-// console.log(users[1].email)
+console.log(users[1].email)
 
-// console.log(appUser);
+console.log(appUser);
 
-// console.log(Object.keys(appUser));
+console.log(Object.keys(appUser));
 
-// console.log(Object.values(appUser));
+console.log(Object.values(appUser));
 
-// console.log(Object.entries(appUser));
+console.log(Object.entries(appUser));
 
-// console.log(appUser.hasOwnProperty("isLoggedIn"));
-// console.log(appUser.hasOwnProperty("isLogged"));
+console.log(appUser.hasOwnProperty("isLoggedIn"));
+console.log(appUser.hasOwnProperty("isLogged"));
 
 let course = {
     name: "Java Script learning",
